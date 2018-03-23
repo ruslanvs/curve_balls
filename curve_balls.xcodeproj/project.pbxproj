@@ -14,6 +14,9 @@
 		A6C9BBE7206465C200282A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C9BBE5206465C200282A4A /* LaunchScreen.storyboard */; };
 		A6C9BBF2206465C200282A4A /* curve_ballsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9BBF1206465C200282A4A /* curve_ballsTests.swift */; };
 		A6C9BBFD206465C200282A4A /* curve_ballsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9BBFC206465C200282A4A /* curve_ballsUITests.swift */; };
+		A6FFB72A206484B000A020EC /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFB729206484B000A020EC /* DatePickerVC.swift */; };
+		A6FFB72C20648BBB00A020EC /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFB72B20648BBB00A020EC /* SwitchVC.swift */; };
+		A6FFB72E206493E300A020EC /* CustomSwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFB72D206493E300A020EC /* CustomSwipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A6C9BBF8206465C200282A4A /* curve_ballsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = curve_ballsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C9BBFC206465C200282A4A /* curve_ballsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curve_ballsUITests.swift; sourceTree = "<group>"; };
 		A6C9BBFE206465C200282A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FFB729206484B000A020EC /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		A6FFB72B20648BBB00A020EC /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
+		A6FFB72D206493E300A020EC /* CustomSwipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		A6C9BBD8206465C200282A4A /* curve_balls */ = {
 			isa = PBXGroup;
 			children = (
+				A6FFB72B20648BBB00A020EC /* SwitchVC.swift */,
 				A6C9BBD9206465C200282A4A /* AppDelegate.swift */,
 				A6C9BBDD206465C200282A4A /* Main.storyboard */,
+				A6FFB72D206493E300A020EC /* CustomSwipeVC.swift */,
+				A6FFB729206484B000A020EC /* DatePickerVC.swift */,
 				A6C9BBE3206465C200282A4A /* Assets.xcassets */,
 				A6C9BBE5206465C200282A4A /* LaunchScreen.storyboard */,
 				A6C9BBE8206465C200282A4A /* Info.plist */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FFB72C20648BBB00A020EC /* SwitchVC.swift in Sources */,
 				A6C9BBE2206465C200282A4A /* curve_balls.xcdatamodeld in Sources */,
+				A6FFB72E206493E300A020EC /* CustomSwipeVC.swift in Sources */,
+				A6FFB72A206484B000A020EC /* DatePickerVC.swift in Sources */,
 				A6C9BBDA206465C200282A4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
