@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6AF98532068046C00C2BA5C /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AF98522068046C00C2BA5C /* AnimalModel.swift */; };
+		A6AF98552068072400C2BA5C /* RefineFetchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AF98542068072400C2BA5C /* RefineFetchVC.swift */; };
 		A6C9BBDA206465C200282A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9BBD9206465C200282A4A /* AppDelegate.swift */; };
 		A6C9BBDF206465C200282A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C9BBDD206465C200282A4A /* Main.storyboard */; };
 		A6C9BBE2206465C200282A4A /* curve_balls.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6C9BBE0206465C200282A4A /* curve_balls.xcdatamodeld */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6AF98522068046C00C2BA5C /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		A6AF98542068072400C2BA5C /* RefineFetchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefineFetchVC.swift; sourceTree = "<group>"; };
 		A6C9BBD6206465C200282A4A /* curve_balls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curve_balls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C9BBD9206465C200282A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6C9BBDE206465C200282A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,7 +112,9 @@
 				A6FFB72B20648BBB00A020EC /* SwitchVC.swift */,
 				A6C9BBD9206465C200282A4A /* AppDelegate.swift */,
 				A6C9BBDD206465C200282A4A /* Main.storyboard */,
+				A6AF98522068046C00C2BA5C /* AnimalModel.swift */,
 				A6D182B62067193500762A8A /* CustomSwipesTVC.swift */,
+				A6AF98542068072400C2BA5C /* RefineFetchVC.swift */,
 				A6FFB72D206493E300A020EC /* CustomSwipeVC.swift */,
 				A6FFB729206484B000A020EC /* DatePickerVC.swift */,
 				A6C9BBE3206465C200282A4A /* Assets.xcassets */,
@@ -273,7 +279,9 @@
 			files = (
 				A6FFB72C20648BBB00A020EC /* SwitchVC.swift in Sources */,
 				A6C9BBE2206465C200282A4A /* curve_balls.xcdatamodeld in Sources */,
+				A6AF98552068072400C2BA5C /* RefineFetchVC.swift in Sources */,
 				A6FFB72E206493E300A020EC /* CustomSwipeVC.swift in Sources */,
+				A6AF98532068046C00C2BA5C /* AnimalModel.swift in Sources */,
 				A6FFB72A206484B000A020EC /* DatePickerVC.swift in Sources */,
 				A6C9BBDA206465C200282A4A /* AppDelegate.swift in Sources */,
 				A6D182B72067193500762A8A /* CustomSwipesTVC.swift in Sources */,
