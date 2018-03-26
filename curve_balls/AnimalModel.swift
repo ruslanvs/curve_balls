@@ -15,12 +15,12 @@ class AnimalModel {
     
     static let shared = AnimalModel()
     
-    func get( whereAnimalTypeIs animalType: String? = nil ) -> [Animal] { //>> Eli: is this a proper implementation of an optional parameter? I tried looking optional parameters up, but there is no useful info.
+    func get( whereAnimalTypeIs animalType: String? = nil ) -> [Animal] {
         
         let request = NSFetchRequest<NSFetchRequestResult>( entityName: "Animal" )
         
-        if animalType != nil {
-            request.predicate = NSPredicate( format: "type = %@", animalType as! CVarArg )
+        if let a = animalType {
+            request.predicate = NSPredicate( format: "type = %@", a as CVarArg )
         }
         
         do {
