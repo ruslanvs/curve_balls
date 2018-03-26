@@ -17,6 +17,7 @@
 		A6C9BBF2206465C200282A4A /* curve_ballsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9BBF1206465C200282A4A /* curve_ballsTests.swift */; };
 		A6C9BBFD206465C200282A4A /* curve_ballsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9BBFC206465C200282A4A /* curve_ballsUITests.swift */; };
 		A6D182B72067193500762A8A /* CustomSwipesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D182B62067193500762A8A /* CustomSwipesTVC.swift */; };
+		A6F3D2D32068348600BDF322 /* SectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F3D2D22068348600BDF322 /* SectionsVC.swift */; };
 		A6FFB72A206484B000A020EC /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFB729206484B000A020EC /* DatePickerVC.swift */; };
 		A6FFB72C20648BBB00A020EC /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFB72B20648BBB00A020EC /* SwitchVC.swift */; };
 		A6FFB72E206493E300A020EC /* CustomSwipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FFB72D206493E300A020EC /* CustomSwipeVC.swift */; };
@@ -56,6 +57,7 @@
 		A6C9BBFC206465C200282A4A /* curve_ballsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curve_ballsUITests.swift; sourceTree = "<group>"; };
 		A6C9BBFE206465C200282A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6D182B62067193500762A8A /* CustomSwipesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipesTVC.swift; sourceTree = "<group>"; };
+		A6F3D2D22068348600BDF322 /* SectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsVC.swift; sourceTree = "<group>"; };
 		A6FFB729206484B000A020EC /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		A6FFB72B20648BBB00A020EC /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
 		A6FFB72D206493E300A020EC /* CustomSwipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwipeVC.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		A6C9BBD8206465C200282A4A /* curve_balls */ = {
 			isa = PBXGroup;
 			children = (
+				A6F3D2D22068348600BDF322 /* SectionsVC.swift */,
 				A6FFB72B20648BBB00A020EC /* SwitchVC.swift */,
 				A6C9BBD9206465C200282A4A /* AppDelegate.swift */,
 				A6C9BBDD206465C200282A4A /* Main.storyboard */,
@@ -284,6 +287,7 @@
 				A6AF98532068046C00C2BA5C /* AnimalModel.swift in Sources */,
 				A6FFB72A206484B000A020EC /* DatePickerVC.swift in Sources */,
 				A6C9BBDA206465C200282A4A /* AppDelegate.swift in Sources */,
+				A6F3D2D32068348600BDF322 /* SectionsVC.swift in Sources */,
 				A6D182B72067193500762A8A /* CustomSwipesTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
